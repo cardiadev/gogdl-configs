@@ -1,0 +1,6 @@
+[submodule "modules/apps/front"]
+	path = modules/apps/front
+	url = git@github.com:cardiadev/gogdl-front.git
+[submodule "modules/services/back"]
+	path = modules/services/back
+	url = git@github.com:cardiadev/gogdl-back.git
