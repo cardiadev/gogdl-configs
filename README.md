@@ -3,12 +3,19 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-**GoGDL-Configs** is the main configuration repository for the GoGDL project. It manages and organizes the structure of the project, incorporating submodules for different components:
+**GoGDL-Configs** is the main configuration repository for the GoGDL project. It manages and organizes the structure of the project, incorporating submodules for different components. Each component lives in its own repository (poly-repo), and this repo only keeps the folder layout and submodule metadata.
 
-- **Front-end**: Located in `modules/apps/front`, this submodule contains the user interface and client-side logic of the application.
-- **Back-end**: Located in `modules/services/back`, this submodule contains the server-side logic, APIs, and database interactions.
+- **Angular Web App**: `modules/apps/gogdl-angular` (existing front-end)
+- **Next.js Web App**: `modules/apps/gogdl-web` (placeholder for the upcoming Next.js repo)
+- **Expo Mobile App**: `modules/apps/gogdl-mobile` (placeholder for the upcoming Expo repo)
+- **NestJS API**: `modules/services/gogdl-api` (existing backend)
 
 This repository serves as a central hub for coordinating development, ensuring consistency across the project's components.
+
+## Branching Model
+
+- `main`: stable configuration snapshots.
+- `develop`: active coordination branch. All structural work (like folder/layout changes) should originate here before being merged into `main`.
 
 
 
