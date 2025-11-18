@@ -79,7 +79,67 @@ npm install
 
 ### Running the Applications
 
-Each application can be run independently from its respective directory. Check each submodule's README for specific run commands and environment setup instructions.
+Each application can be run independently from its respective directory:
+
+#### Angular App (Development)
+```bash
+cd modules/apps/gogdl-angular
+ng serve
+# Or using npm
+npm start
+```
+Access at `http://localhost:4200`
+
+#### Next.js Web App (Development)
+```bash
+cd modules/apps/gogdl-web
+npm run dev
+```
+Access at `http://localhost:3000`
+
+#### Expo Mobile App (Development)
+```bash
+cd modules/apps/gogdl-mobile
+npx expo start
+# Or
+npm start
+```
+- Press `i` for iOS simulator
+- Press `a` for Android emulator
+- Scan QR code with Expo Go app for physical device
+
+#### NestJS API (Development)
+```bash
+cd modules/services/gogdl-api
+npm run start:dev
+```
+API runs at `http://localhost:3000` (or configured port)
+
+### Production Builds
+
+#### Angular App
+```bash
+npm run build
+# Output: dist/
+```
+
+#### Next.js Web App
+```bash
+npm run build
+npm run start
+```
+
+#### Expo Mobile App
+```bash
+npx expo build:android
+npx expo build:ios
+```
+
+#### NestJS API
+```bash
+npm run build
+npm run start:prod
+```
 
 
 
