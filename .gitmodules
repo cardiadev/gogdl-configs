@@ -1,6 +1,12 @@
-[submodule "modules/apps/front"]
-	path = modules/apps/front
-	url = git@github.com:cardiadev/gogdl-front.git
-[submodule "modules/services/back"]
-	path = modules/services/back
-	url = git@github.com:cardiadev/gogdl-back.git
+[submodule "modules/apps/gogdl-angular"]
+	path = modules/apps/gogdl-angular
+	url = git@github.com:cardiadev/gogdl-angular.git
+[submodule "modules/apps/gogdl-web"]
+	path = modules/apps/gogdl-web
+	url = git@github.com:cardiadev/gogdl-web.git
+[submodule "modules/apps/gogdl-mobile"]
+	path = modules/apps/gogdl-mobile
+	url = git@github.com:cardiadev/gogdl-mobile.git
+[submodule "modules/services/gogdl-api"]
+	path = modules/services/gogdl-api
+	url = git@github.com:cardiadev/gogdl-api.git
